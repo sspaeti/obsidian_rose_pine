@@ -9,7 +9,55 @@ Installation: Simply search `Rose Pine` in the Obsidian Communitiy Themes and In
 
 ## Color Palette
 
+### MdBook Rose Pink
 
+```
+.pinkrose {
+    /* Base and Surface colors for background and foreground */
+    --bg: #1f1d2e; /* Surface color */
+    --fg: #e0def4; /* Text color */
+
+    /* Subtler sidebar to keep focus on the content */
+    --sidebar-bg: #191724; /* Base color */
+    --sidebar-fg: #908caa; /* Subtle color */
+
+    /* Additional color assignments from the palette */
+    --sidebar-non-existant: #524f67; /* Highlight High */
+    --sidebar-active: #eb6f92; /* Love */
+    --sidebar-spacer: #403d52; /* Highlight Med */
+
+    --scrollbar: var(--sidebar-fg);
+
+    --icons: #31748f; /* Pine */
+    --icons-hover: #c4a7e7; /* Iris */
+
+    --links: #f6c177; /* Gold */
+
+    --inline-code-color: #ebbcba; /* Rose */
+
+    --theme-popup-bg: #26233a; /* Overlay */
+    --theme-popup-border: #6e6a86; /* Muted */
+    --theme-hover: #21202e; /* Highlight Low */
+
+    --quote-bg: #26233a; /* Overlay */
+    --quote-border: #403d52; /* Highlight Med */
+
+    --table-border-color: #524f67; /* Highlight High */
+    --table-header-bg: #403d52; /* Highlight Med */
+    --table-alternate-bg: #1f1d2e; /* Surface */
+
+    --searchbar-border-color: #6e6a86; /* Muted */
+    --searchbar-bg: #26233a; /* Overlay */
+    --searchbar-fg: #e0def4; /* Text */
+    --searchbar-shadow-color: #eb6f92; /* Love */
+    --searchresults-header-fg: #908caa; /* Subtle */
+    --searchresults-border-color: #524f67; /* Highlight High */
+    --searchresults-li-bg: #1f1d2e; /* Surface */
+    --search-mark-bg: #f6c177; /* Gold */
+}
+```
+
+### Rose Pink
 |Role|Hex|RGB|HSL|
 |---|---|---|---|
 |Base|#191724|rgb(25, 23, 36)|hsl(249deg, 22%, 12%)|
