@@ -5,7 +5,7 @@ Installation: Simply search `Rose Pine` in the Obsidian Communitiy Themes and In
 
 ![](theme.jpg)
 
-
+*Check also my other Theme I created, [Obsidian Kanagawa](https://github.com/sspaeti/obsidian_kanagawa).*
 
 ## Color Palette
 
