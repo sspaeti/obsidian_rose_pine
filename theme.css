@@ -1,0 +1,146 @@
+:root {
+    --base: #191724;
+    --surface: #1f1d2e;
+    --overlay: #26233a;
+    --muted: #6e6a86;
+    --subtle: #908caa;
+    --text: #e0def4;
+    --love: #eb6f92;
+    --gold: #f6c177;
+    --rose: #ebbcba;
+    --pine: #31748f;
+    --foam: #9ccfd8;
+    --iris: #c4a7e7;
+    --highlight-low: #21202e;
+    --highlight-med: #403d52;
+    --highlight-high: #524f67;
+}
+
+body {
+    background-color: var(--base);
+    color: var(--text);
+}
+
+.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+    display: none;
+}
+
+svg * {
+    stroke-linecap: square;
+    stroke-linejoin: miter;
+    rx: 0;
+    ry: 0;
+}
+
+.menu {
+    background-color: var(--surface);
+    padding: var(--size-2-1);
+}
+
+.menu-item {
+    color: var(--text);
+    background-color: var(--overlay);
+    padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+    background-color: var(--muted);
+    margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+/* Add additional styling here */
+
+
+
+:root {
+    --base: #191724;
+    --surface: #1f1d2e;
+    --overlay: #26233a;
+    --muted: #6e6a86;
+    --subtle: #908caa;
+    --text: #e0def4;
+    --love: #eb6f92;
+    --gold: #f6c177;
+    --rose: #ebbcba;
+    --pine: #31748f;
+    --foam: #9ccfd8;
+    --iris: #c4a7e7;
+    --highlight-low: #21202e;
+    --highlight-med: #403d52;
+    --highlight-high: #524f67;
+
+    /* Replace Gruvbox colors with Rose Pine colors */
+    --background-primary: var(--base);
+    --background-secondary: var(--surface);
+    --background-modifier-border: var(--overlay);
+
+    --text-normal: var(--text);
+    --text-muted: var(--muted);
+    --text-accent: var(--love);
+    --text-accent-hover: var(--foam);
+
+    --tag-color: var(--iris);
+    --tag-background: var(--overlay);
+
+    --h1-color: var(--love);
+    --h2-color: var(--gold);
+    --h3-color: var(--pine);
+    --h4-color: var(--foam);
+    --h5-color: var(--iris);
+    --h6-color: var(--rose);
+
+    /* Other color replacements */
+    --code-normal: var(--subtle);
+    --code-background: var(--highlight-low);
+
+    /* ...continue replacing colors as needed */
+}
+
+/* Example of applying the new colors to elements */
+body {
+    background-color: var(--base);
+    color: var(--text);
+}
+
+/* Styles for headings */
+h1 {
+    color: var(--h1-color);
+}
+
+h2 {
+    color: var(--h2-color);
+}
+
+h3 {
+    color: var(--h3-color);
+}
+
+h4 {
+    color: var(--h4-color);
+}
+
+h5 {
+    color: var(--h5-color);
+}
+
+h6 {
+    color: var(--h6-color);
+}
+
+
+/* Example of customizing links */
+a {
+    color: var(--pine);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--foam);
+    text-decoration: underline;
+}
+
+/* Further style customizations based on Gruvbox template */
+/* ... */
+
+/* Ensure to test and tweak as necessary */
+
