@@ -5,10 +5,9 @@ Installation: Simply search `Rosé Pine` in the Obsidian Communitiy Themes and I
 
 ![](dark_high.jpg)
 
+
+* [Color Palette](https://rosepinetheme.com/palette/ingredients/)
+
+---
+
 *Check also my other Theme I created, [Obsidian Kanagawa](https://github.com/sspaeti/obsidian_kanagawa).*
-
-## Color Palette
-
-[Color Palette Origin](https://rosepinetheme.com/palette/ingredients/)
-
-
