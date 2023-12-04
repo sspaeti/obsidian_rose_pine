@@ -36,8 +36,8 @@
     --h6-color: var(--rose);
     --code-normal: var(--subtle);
     --code-background: var(--highlight-low);
-    --text-selection: rgba(var(--pine), 0.6);
-    --flashing-background: rgba(var(--love), 0.3);
+    --text-selection: rgba(49, 116, 143, 0.6); /* --pine */
+	--flashing-background: rgba(235, 111, 146, 0.3); /* --love */
     --link-url: var(--pine);
     --link-url-hover: var(--iris);
 }
@@ -64,6 +64,7 @@ a:hover {
     color: var(--link-url-hover);
     text-decoration: var(--link-decoration-hover);
 }
+
 
 /* Tags */
 .tag {
@@ -130,157 +131,10 @@ code[class*="language-"], pre[class*="language-"] {
     color
 
 
-
-
-
-
-/* ----------------- */
-/* -- Rose Pine -- */
-/* based on https://github.com/rose-pine/rose-pine-theme */
-
-/* :root { */
-/*     --base: #191724; */
-/*     --surface: #1f1d2e; */
-/*     --overlay: #26233a; */
-/*     --muted: #6e6a86; */
-/*     --subtle: #908caa; */
-/*     --text: #e0def4; */
-/*     --love: #eb6f92; */
-/*     --gold: #f6c177; */
-/*     --rose: #ebbcba; */
-/*     --pine: #31748f; */
-/*     --foam: #9ccfd8; */
-/*     --iris: #c4a7e7; */
-/*     --highlight-low: #21202e; */
-/*     --highlight-med: #403d52; */
-/*     --highlight-high: #524f67; */
+/* ::selection */
+/* { */
+/*     background-color: var(--text-selection) !important; */
 /* } */
 
-/* body { */
-/*     background-color: var(--base); */
-/*     color: var(--text); */
-/* } */
-
-/* .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after { */
-/*     display: none; */
-/* } */
-
-/* svg * { */
-/*     stroke-linecap: square; */
-/*     stroke-linejoin: miter; */
-/*     rx: 0; */
-/*     ry: 0; */
-/* } */
-
-/* .menu { */
-/*     background-color: var(--surface); */
-/*     padding: var(--size-2-1); */
-/* } */
-
-/* .menu-item { */
-/*     color: var(--text); */
-/*     background-color: var(--overlay); */
-/*     padding: var(--size-4-1) var(--size-4-2); */
-/* } */
-
-/* .menu-separator { */
-/*     background-color: var(--muted); */
-/*     margin: var(--size-2-1) calc(var(--size-2-1) * -1); */
-/* } */
-
-/* /1* Add additional styling here *1/ */
-
-
-
-/* :root { */
-/*     --base: #191724; */
-/*     --surface: #1f1d2e; */
-/*     --overlay: #26233a; */
-/*     --muted: #6e6a86; */
-/*     --subtle: #908caa; */
-/*     --text: #e0def4; */
-/*     --love: #eb6f92; */
-/*     --gold: #f6c177; */
-/*     --rose: #ebbcba; */
-/*     --pine: #31748f; */
-/*     --foam: #9ccfd8; */
-/*     --iris: #c4a7e7; */
-/*     --highlight-low: #21202e; */
-/*     --highlight-med: #403d52; */
-/*     --highlight-high: #524f67; */
-
-/*     /1* Replace Gruvbox colors with Rose Pine colors *1/ */
-/*     --background-primary: var(--base); */
-/*     --background-secondary: var(--surface); */
-/*     --background-modifier-border: var(--overlay); */
-
-/*     --text-normal: var(--text); */
-/*     --text-muted: var(--muted); */
-/*     --text-accent: var(--love); */
-/*     --text-accent-hover: var(--foam); */
-
-/*     --tag-color: var(--iris); */
-/*     --tag-background: var(--overlay); */
-
-/*     --h1-color: var(--love); */
-/*     --h2-color: var(--gold); */
-/*     --h3-color: var(--pine); */
-/*     --h4-color: var(--foam); */
-/*     --h5-color: var(--iris); */
-/*     --h6-color: var(--rose); */
-
-/*     /1* Other color replacements *1/ */
-/*     --code-normal: var(--subtle); */
-/*     --code-background: var(--highlight-low); */
-
-/*     /1* ...continue replacing colors as needed *1/ */
-/* } */
-
-/* /1* Example of applying the new colors to elements *1/ */
-/* body { */
-/*     background-color: var(--base); */
-/*     color: var(--text); */
-/* } */
-
-/* /1* Styles for headings *1/ */
-/* h1 { */
-/*     color: var(--h1-color); */
-/* } */
-
-/* h2 { */
-/*     color: var(--h2-color); */
-/* } */
-
-/* h3 { */
-/*     color: var(--h3-color); */
-/* } */
-
-/* h4 { */
-/*     color: var(--h4-color); */
-/* } */
-
-/* h5 { */
-/*     color: var(--h5-color); */
-/* } */
-
-/* h6 { */
-/*     color: var(--h6-color); */
-/* } */
-
-
-/* /1* Example of customizing links *1/ */
-/* a { */
-/*     color: var(--pine); */
-/*     text-decoration: none; */
-/* } */
-
-/* a:hover { */
-/*     color: var(--foam); */
-/*     text-decoration: underline; */
-/* } */
-
-/* /1* Further style customizations based on Gruvbox template *1/ */
-/* /1* ... *1/ */
-
-/* /1* Ensure to test and tweak as necessary *1/ */
+/* .CodeMirror-selected {background:red !important;} */
 
