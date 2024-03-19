@@ -40,6 +40,7 @@
 	--flashing-background: rgba(235, 111, 146, 0.3); /* --love */
     --link-url: var(--pine);
     --link-url-hover: var(--iris);
+    --bold-color:     var(--rose);
 }
 
 body {
@@ -130,6 +131,10 @@ code[class*="language-"], pre[class*="language-"] {
     background-color: var(--code-background);
     color
 
+.cm-line .cm-strong
+{
+    color: var(--bold-color) !important;
+}
 
 /* ::selection */
 /* { */
