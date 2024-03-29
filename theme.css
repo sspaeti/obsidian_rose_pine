@@ -40,7 +40,7 @@
 	--flashing-background: rgba(235, 111, 146, 0.3); /* --love */
     --link-url: var(--pine);
     --link-url-hover: var(--iris);
-    --bold-color:     var(--rose);
+    --bold-color:     var(--subtle);
 }
 
 body {
