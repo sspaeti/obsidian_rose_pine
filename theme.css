@@ -1,5 +1,5 @@
 :root {
-    /* Rose Pine Color Palette - Updated from .pinkrose class */
+    /* Rosé Pine Color Palette - Updated from .pinkrose class */
     --base: #191724; /* sidebar-bg */
     --surface: #1f1d2e; /* bg */
     --overlay: #26233a; /* theme-popup-bg */
@@ -15,6 +15,23 @@
     --highlight-low: #21202e; /* theme-hover */
     --highlight-med: #403d52; /* sidebar-spacer */
     --highlight-high: #524f67; /* sidebar-non-existant */
+
+    /* Rosé Pine Dawn Color Palette */
+    --light-base: #faf4ed;
+    --light-surface: #fffaf3;
+    --light-overlay: #f2e9e1;
+    --light-muted: #9893a5;
+    --light-subtle: #797593;
+    --light-text: #575279;
+    --light-love: #b4637a;
+    --light-gold: #ea9d34;
+    --light-rose: #d7827e;
+    --light-pine: #286983;
+    --light-foam: #56949f;
+    --light-iris: #907aa9;
+    --light-highlight-low: #f4ede8;
+    --light-highlight-med: #dfdad9;
+    --light-highlight-high: #cecacd;
 }
 
 .theme-dark {
@@ -37,15 +54,46 @@
     --code-normal: var(--subtle);
     --code-background: var(--highlight-low);
     --text-selection: rgba(49, 116, 143, 0.6); /* --pine */
-	--flashing-background: rgba(235, 111, 146, 0.3); /* --love */
+    --flashing-background: rgba(235, 111, 146, 0.3); /* --love */
     --link-url: var(--pine);
     --link-url-hover: var(--iris);
-    --bold-color:     var(--subtle);
+    --bold-color: var(--subtle);
 }
 
-body {
-    background-color: var(--base);
-    color: var(--text);
+.theme-light {
+    /* Light Theme Colors */
+    --background-primary: var(--light-base);
+    --background-secondary: var(--light-surface);
+    --background-modifier-border: var(--light-overlay);
+    --text-normal: var(--light-text);
+    --text-muted: var(--light-muted);
+    --text-accent: var(--light-love);
+    --text-accent-hover: var(--light-foam);
+    --tag-color: var(--light-iris);
+    --tag-background: var(--light-overlay);
+    --h1-color: var(--light-love);
+    --h2-color: var(--light-gold);
+    --h3-color: var(--light-pine);
+    --h4-color: var(--light-foam);
+    --h5-color: var(--light-iris);
+    --h6-color: var(--light-rose);
+    --code-normal: var(--light-subtle);
+    --code-background: var(--light-highlight-low);
+    --text-selection: rgba(40, 105, 131, 0.6); /* --light-pine */
+    --flashing-background: rgba(180, 99, 122, 0.3); /* --light-love */
+    --link-url: var(--light-pine);
+    --link-url-hover: var(--light-iris);
+    --bold-color: var(--light-subtle);
+}
+
+body.theme-dark {
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+}
+
+body.theme-light {
+    background-color: var(--background-primary);
+    color: var(--text-normal);
 }
 
 /* Headings */
@@ -65,7 +113,6 @@ a:hover {
     color: var(--link-url-hover);
     text-decoration: var(--link-decoration-hover);
 }
-
 
 /* Tags */
 .tag {
@@ -129,10 +176,10 @@ input[type=checkbox]:checked:after {
 code[class*="language-"], pre[class*="language-"] {
     line-height: var(--line-height-tight);
     background-color: var(--code-background);
-    color
+    color: var(--code-normal);
+}
 
-.cm-line .cm-strong
-{
+.cm-line .cm-strong {
     color: var(--bold-color) !important;
 }
 
@@ -142,4 +189,3 @@ code[class*="language-"], pre[class*="language-"] {
 /* } */
 
 /* .CodeMirror-selected {background:red !important;} */
-
