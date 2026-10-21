@@ -24,4 +24,4 @@ npm run version
 
 ---
 
-*Check also my other Theme I created, [Kanagawa](https://github.com/sspaeti/obsidian_kanagawa), [Kanagawa Paper](https://github.com/sspaeti/obsidian_kanagawa_paper/), [Osaka Jade](https://github.com/sspaeti/obsidian_osaka_jade).*
+*Check also my other Themes I created, [Kanagawa](https://github.com/sspaeti/obsidian_kanagawa), [Kanagawa Paper](https://github.com/sspaeti/obsidian_kanagawa_paper/), [Osaka Jade](https://github.com/sspaeti/obsidian_osaka_jade), [Asia Neon](https://github.com/sspaeti/obsidian_asia_neon/), [Fireplace](https://github.com/sspaeti/obsidian_fireplace/).*
